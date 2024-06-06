@@ -1,0 +1,119 @@
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  display: flex;
+    justify-content: center;
+}
+.container {
+  max-width: 1080px;
+  margin: 0 auto; /* Center the container horizontally */
+}
+.titleText{
+  font-family: "Gotham Narrow", Arial, serif;
+}
+.heroImage{
+  width: 100%;
+}
+.image-container {
+  position: relative;
+  width: 100%;
+  margin: auto;
+}
+
+.background-image {
+  width: 100%;
+  height: auto;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; /* Change the color as needed */
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+.intro{
+  font-size: 24px;
+    width: 800px;
+    margin: auto;
+    padding-top: 50px;
+    max-width: 1080px;
+    margin: 0 auto; /* Center the container horizontally */
+}
+.overlay-text h1,
+.overlay-text p {
+  margin: 0;
+}
+.greyBackground{
+  background-color: #ededed;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+}
+.cardTitles{
+  display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    margin-bottom: 0;
+}
+.actionButtons{
+  display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    display: flex;
+    padding-right: 25px;
+}
+.actionButtons .deleteButton{
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 20px;
+  border: 2px solid red; 
+  background-color: red;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.actionButtons .viewButton{
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 20px;
+  border: 2px solid #007bff; 
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.newCrad{
+  display: flex;
+  border: 2px solid #000;
+  flex-direction: column;
+  padding-top: 20px;
+  max-width: 400px;
+  padding-bottom: 20px;
+  margin-top: 50px !important;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+
+}
+ .updateButton{
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid green; 
+  background-color: green;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.paginationButtons button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
